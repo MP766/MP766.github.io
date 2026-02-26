@@ -1,0 +1,28 @@
+[
+  {
+    "id": "slot-machine-unity",
+    "title": "Progressive Slot Machine (Unity)",
+    "category": "Game Dev",
+    "summary": "Sprite-themed slot machine with modern bonus mechanics and a custom animated UI text system.",
+    "tech": ["Unity", "C#", "2D", "Animation"],
+    "highlights": [
+      "Multi-reel multi-row layouts and modern bonus systems",
+      "Custom sprite-based UI text system with animation",
+      "Minigame tied to symbol combinations and progressive jackpot state"
+    ],
+    "links": { "github": "", "demo": "", "video": "" }
+  },
+  {
+    "id": "pokemon-memory-viewer",
+    "title": "Pokémon Memory Viewer / Tracker Toolkit",
+    "category": "Tools",
+    "summary": "A structured app for reading and visualizing in-game memory values to track stats and state.",
+    "tech": ["C++", "Lua", "SFML", "Git"],
+    "highlights": [
+      "Real-time memory value visualization",
+      "Designed for game-specific memory map modules",
+      "Clean UI structure for expanding features"
+    ],
+    "links": { "github": "", "demo": "", "video": "" }
+  }
+]
