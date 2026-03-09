@@ -10,8 +10,8 @@ export default function Home() {
       <section className="space-y-4">
         <h1 className="text-4xl font-bold tracking-tight">Mark Perez</h1>
         <p className="max-w-2xl text-zinc-300">
-          I build tools and games with Unity/C#, C++/SFML, and web tech. This site
-          showcases my strongest projects and the technical work behind them.
+          I build tools and games with Unity/C#, C++/SFML, and a variety of other projects. This site is
+          a work in progress, and there are projects and content yet to be added.
         </p>
 
         <div className="flex gap-3">

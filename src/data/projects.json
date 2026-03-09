@@ -3,13 +3,21 @@
     "id": "slot-machine-unity",
     "title": "Progressive Slot Machine (Unity)",
     "category": "Game Dev",
-    "summary": "Sprite-themed slot machine with modern bonus mechanics and a custom animated UI text system.",
+    "summary": "Sprite-themed slot machine with modern bonus mechanics and a custom animated UI text system. Assets in the project are just for personal use.",
     "tech": ["Unity", "C#", "2D", "Animation"],
     "highlights": [
       "Multi-reel multi-row layouts and modern bonus systems",
       "Custom sprite-based UI text system with animation",
       "Minigame tied to symbol combinations and progressive jackpot state"
     ],
+    "sections":[
+      {
+        "title": "Project Overview",
+        "body": ["Over the course of my life I often wondered one thing, how do slot machines work? Having played them myself and observed others use them, where gambling is legal of course. Objectively it is a game of chance, everytime you pull the lever, press the button, touch the screen a set of reels will spin individually and then if 3 or more symbols line up in a row, you win. Now modern slot machines build upon this and offer more reels, more ways to win, and even bonus minigames, in the form of jackpots, or features. The aim of this project was to attempt to create my own slot machine, using assets from a video game that I like."],
+        "bullets":[]
+      }
+    ],
+    "media":[],
     "links": { "github": "", "demo": "", "video": "" }
   },
   {
@@ -23,6 +31,8 @@
       "Designed for game-specific memory map modules",
       "Clean UI structure for expanding features"
     ],
+        "sections":[],
+    "media":[],
     "links": { "github": "", "demo": "", "video": "" }
   }
 ]
