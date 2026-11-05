@@ -1,5 +1,20 @@
 [
   {
+    "id": "pokemon-battle-rl",
+    "title": "Pokémon Battle RL",
+    "category": "Machine Learning / Game Systems",
+    "summary": "Teaching an AI to battle in Pokémon Blue through experience, using the original game as a reinforcement-learning environment.",
+    "tech": ["Python", "PyBoy", "Gymnasium", "Stable-Baselines3", "MaskablePPO", "NumPy", "Git"],
+    "highlights": [
+      "Operational Version 1 battle-learning and experimentation platform",
+      "DQN and MaskablePPO agents evaluated against grounded baselines",
+      "Reproducible scenario save states with structured experiment logging"
+    ],
+    "sections": [],
+    "media": [],
+    "links": { "github": "", "demo": "", "video": "" }
+  },
+  {
     "id": "slot-machine-unity",
     "title": "Progressive Slot Machine (Unity)",
     "category": "Game Dev",

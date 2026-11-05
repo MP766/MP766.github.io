@@ -1,5 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import projects from "../data/projects.json";
+import PokemonBattleRL from "./PokemonBattleRL";
 
 function MediaGallery({ media = [], title }) {
   const supportedMedia = Array.isArray(media)
@@ -115,6 +116,10 @@ export default function ProjectDetail() {
         </p>
       </div>
     );
+  }
+
+  if (p.id === "pokemon-battle-rl") {
+    return <PokemonBattleRL project={p} />;
   }
 
   return (
