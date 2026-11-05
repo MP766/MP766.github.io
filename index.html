@@ -2,11 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
-    <script type="module" crossorigin src="/assets/index-DWXNDgxq.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DcFzzJKl.css">
+    <meta
+      name="description"
+      content="Mark Perez's portfolio of software, tools, games, and technical projects."
+    />
+    <title>Mark Perez | Portfolio</title>
+    <script>
+      (function (location) {
+        if (location.search.startsWith("?/")) {
+          const route = location.search.slice(2).split("&").map((part) => part.replace(/~and~/g, "&")).join("?");
+          window.history.replaceState(null, "", `/${route}${location.hash}`);
+        }
+      })(window.location);
+    </script>
+    <script type="module" crossorigin src="/assets/index-pqeahQE-.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-C7_JCakv.css">
   </head>
   <body>
     <div id="root"></div>
