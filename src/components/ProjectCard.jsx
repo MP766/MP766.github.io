@@ -14,16 +14,18 @@ export default function ProjectCard({ project }) {
 
       <div className="mt-2 text-zinc-300">{project.summary}</div>
 
-      <div className="mt-4 flex flex-wrap gap-2">
-        {project.tech.map((t) => (
-          <span
-            key={t}
-            className="rounded-full border border-zinc-800 px-2 py-1 text-xs text-zinc-300"
-          >
-            {t}
-          </span>
-        ))}
-      </div>
+      {Array.isArray(project.tech) && project.tech.length ? (
+        <div className="mt-4 flex flex-wrap gap-2">
+          {project.tech.map((t) => (
+            <span
+              key={t}
+              className="rounded-full border border-zinc-800 px-2 py-1 text-xs text-zinc-300"
+            >
+              {t}
+            </span>
+          ))}
+        </div>
+      ) : null}
     </Link>
   );
 }

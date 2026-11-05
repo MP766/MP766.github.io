@@ -3,6 +3,18 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import ProjectDetail from "./pages/ProjectDetail";
 
+function NotFound() {
+  return (
+    <div className="space-y-4">
+      <h1 className="text-2xl font-bold">Page not found</h1>
+      <p className="text-zinc-300">The page you requested does not exist.</p>
+      <Link to="/" className="inline-block text-zinc-300 hover:text-white">
+        Return home
+      </Link>
+    </div>
+  );
+}
+
 function Nav() {
   return (
     <header className="border-b border-zinc-800 bg-zinc-950 text-zinc-100">
@@ -15,12 +27,6 @@ function Nav() {
           <Link className="hover:text-white" to="/projects">
             Projects
           </Link>
-          <a className="hover:text-white" href="/resume.pdf">
-            Resume
-          </a>
-          <a className="hover:text-white" href="mailto:you@email.com">
-            Contact
-          </a>
         </nav>
       </div>
     </header>
@@ -38,6 +44,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/projects/:id" element={<ProjectDetail />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
 
